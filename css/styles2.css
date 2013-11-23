@@ -103,14 +103,16 @@ div.comments_wrapper_on {
 }
 
 div.user_says {
+	width: 22%;
 	margin-right: 1em;
 	float: left;
 }
 
 div.comment {
-	width: 80%;
+	width: 75%;
 	margin-top: 0.25em;
 	font-size: 1em;
+	float: right;
 	display: inline-block;
 }
 

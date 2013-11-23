@@ -12,7 +12,10 @@ html {
 }
 
 h1 {
+	font-size: 2.5em;
+	font-weight: bold;
 	margin: auto;
+	margin-top: 0.5em;
 	text-align: center;
 }
 
@@ -22,9 +25,8 @@ h3 {
 }
 
 h4 {
-	margin: 0em;
-	padding: 1em;
-	float: left;
+	font-size: 1.25em;
+	font-weight: bold;
 }
 
 div#main_img {
@@ -80,8 +82,8 @@ div.comments_wrapper {
 	top: 85%;
 	width: 85%;
 	height: 10%;
-	margin: auto;
-	margin-left: 2em;
+	margin-left: 2.5em;
+	padding: 0.75em;
 	border: solid 1px #C0C0C0;
 	border-radius: 0.25em 0.25em 0.25em 0.25em;
 	background-color: #FFFFFF;
@@ -100,12 +102,16 @@ div.comments_wrapper_on {
 	display: block;
 }
 
-span.comment_tag {
-	font-family: DopeJam;
-	font-size: 1.5em;
-	margin-top: -1em;
-	margin-left: 0.25em;
+div.user_says {
+	margin-right: 1em;
+	float: left;
+}
 
+div.comment {
+	width: 80%;
+	margin-top: 0.25em;
+	font-size: 1em;
+	display: inline-block;
 }
 
 div#close {

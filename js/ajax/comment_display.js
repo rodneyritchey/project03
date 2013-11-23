@@ -5,10 +5,10 @@ $(document).ready(function() {
 					type: 'get',
 					url: 'scripts/comment_display.php',
 					success: function(responseData) {
-						$('#comment').empty().html(responseData);
+						$('#comments_wrapper').empty().html(responseData);
 					},
 					error: function(responseData) {
-						$('#comment').empty().html(responseData);
+						$('#comments_wrapper').empty().html(responseData);
 					}
 				});
 			});

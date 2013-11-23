@@ -12,6 +12,6 @@
 	
 while($row = mysqli_fetch_array($result))
   {
-   echo "<h4>" .$usr. " says <span class='comment_tag'>" .$row['comment']. "</span></h4></div>";  
+   echo "<div class='user_says' id='user_says'><h4>" .$usr. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment']. "&quot;</div>";  
   }
  ?> 

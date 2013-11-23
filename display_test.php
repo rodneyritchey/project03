@@ -6,6 +6,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/ajax/tag_display.js"></script>
 <script src="js/ajax/comment_display.js"></script>
+<link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles2.css" />
 </head>
 
@@ -14,10 +15,7 @@
 	
 		<div class="img_wrapper" id="main_img">
 			<div class="tags_wrapper" id="tags_wrapper"></div>
-		
-		<div class="comments_wrapper" id="comments_wrapper">
-			<div class="comment" id="comment"></div>
-		</div>
+		<div class="comments_wrapper" id="comments_wrapper"></div>
 	</div>
 </body>
 

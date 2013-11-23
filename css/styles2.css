@@ -1,0 +1,130 @@
+@font-face {
+	font-family: DopeJam;
+	src: url('../fonts/DOPEJAM.TTF');
+}
+
+html { 
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+}
+
+h3 {
+	margin: 0em;
+	padding: 0em;
+}
+
+h4 {
+	margin: 0em;
+	padding: 1em;
+	float: left;
+}
+
+div#main_img {
+	position: relative;
+	max-width: 1023px;
+	height: 682px;
+	margin: auto;
+	margin-top: 1em;
+	border: solid 1px #C0C0C0;
+	border-radius: 0.25em 0.25em 0.25em 0.25em;
+	background-image: url(../img/locations/ucflibrary06.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+div#main_img img {
+	
+}
+
+div#tags_wrapper {
+	width: 95%;
+	margin: auto;
+}
+
+div.tag_wrapper {
+	font-family: DopeJam;
+	font-size: 2em;
+	text-shadow: 0.1125em 0.1125em #000000;
+	padding: 0.5em;
+	color: #FF0000;
+	display: inline-block;
+}
+
+div.tag_wrapper a {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+div.comments {
+	position: absolute;
+	top: 85%;
+	right: 1%;
+	width: 85%;
+	height: 10%;
+	margin: auto;
+	border: solid 1px #C0C0C0;
+	border-radius: 0.25em 0.25em 0.25em 0.25em;
+	background-color: #FFFFFF;
+}
+
+div.comments_wrapper {
+	position: absolute;
+	top: 85%;
+	width: 85%;
+	height: 10%;
+	margin: auto;
+	margin-left: 2em;
+	border: solid 1px #C0C0C0;
+	border-radius: 0.25em 0.25em 0.25em 0.25em;
+	background-color: #FFFFFF;
+}
+
+div.comments_wrapper_on {
+	position: absolute;
+	top: 85%;
+	right: 1%;
+	width: 85%;
+	height: 10%;
+	margin: auto;
+	border: solid 1px #C0C0C0;
+	border-radius: 0.25em 0.25em 0.25em 0.25em;
+	background-color: #FFFFFF;
+	display: block;
+}
+
+span.comment_tag {
+	font-family: DopeJam;
+	font-size: 1.5em;
+	margin-top: -1em;
+	margin-left: 0.25em;
+
+}
+
+div#close {
+	padding: 0.5em;
+	text-align: right;
+}
+
+/*Swipe Styles*/
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}

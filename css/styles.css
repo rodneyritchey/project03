@@ -1,0 +1,217 @@
+@font-face {
+  font-family: DopeJam;
+  src: url('../fonts/DOPEJAM.TTF');
+}
+
+html { 
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+div#wrapper {
+  position: relative;
+}
+
+div#logo {
+	padding-top: 2em;
+	text-align: center;
+}
+
+div#logo img {
+	width: 97%;
+}
+
+div#logo_sm {
+  width: 50%;
+  padding-top: 2em;
+  padding-right: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+
+div#logo_sm img {
+  width: 100%;
+  min-width: 150px;
+}
+
+div.line {
+  width: 1%;
+  height: 40px;
+  margin: auto;
+  border: solid 1px #C0C0C0;
+  background-color: #C0C0C0;
+}
+
+div#login_line {
+  width: 1%;
+  height: 20em;
+  margin: auto;
+  border: solid 1px #C0C0C0;
+  background-color: #C0C0C0;
+}
+
+div.tag {
+  font-family: DopeJam;
+  font-size: 4.5em;
+  font-weight: bold;
+  text-shadow: 0.1125em 0.1125em #000000;
+  color: #FF0000;
+  text-align: center; 
+}
+
+div.member_wrapper {
+  width: 30%;
+  max-width: 250px;
+  min-width: 125px;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-bottom: 4em;
+}
+
+div#choose {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  border: solid 1px #000000;
+  box-shadow: 0.125em 0.125em 0.125em;
+}
+
+div#choose input {
+  margin-bottom: 1em;
+}
+
+div.profile_pic {
+}
+
+div.profile_pic img{
+  width: 100%;
+  height: 100%;
+  border: solid 1px #000000;
+  box-shadow: 0.125em 0.125em 0.125em;
+}
+
+div.greet {
+  padding: 0.5em;
+}
+
+div.loc_wrapper {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2em;
+  padding-top: 2em;
+}
+
+div.location {
+}
+
+div.loc_text {
+  margin-bottom: 0.25em;
+  text-align: center;
+}
+
+div.location img {
+  width: 100%;
+  box-shadow: 0.125em 0.125em 0.125em;
+  overflow: hidden;
+}
+
+div#search_form {
+	margin: auto;
+	width: 100%;
+  margin-bottom: 1em;
+	text-align: center;
+}
+
+form#register fieldset {
+	border: none;
+}
+
+form#register input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  display: inline-block;
+  margin: auto;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  width: 80%; 
+  height: 40px;
+  line-height: 40px; 
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+form#register input[type=submit] {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  display: inline-block;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  width: 70%; 
+  height: 80px;
+  line-height: 40px; 
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #FFFFFF;
+  background-color: #4359A9;
+  color: #FFFFFF;
+}
+
+div#tagit {
+  margin: auto;
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+div#tagit button {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  display: inline-block;
+  margin: auto;
+  margin-top: 0.5em;
+  padding: 0em;
+  padding: 0.5em;
+  width: 100%; 
+  height: 80px;
+  line-height: 40px; 
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #FFFFFF;
+  background-color: #4359A9;
+  color: #FFFFFF;
+}
+
+div.mark {
+  margin: auto;
+  padding: 1em; 
+  width: 50%;
+  text-align: center;
+}
+
+div.mark img {
+  width: 100%;
+}

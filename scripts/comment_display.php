@@ -9,7 +9,7 @@
 
 	//echo $comment_id;
 
-	$result = mysqli_query($con,"SELECT * FROM user WHERE tag = '".$comment_id."'");
+	$result = mysqli_query($con,"SELECT * FROM user WHERE usr = '".$comment_id."'");
 
 	
 while($row = mysqli_fetch_array($result))

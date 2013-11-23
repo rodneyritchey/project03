@@ -3,8 +3,8 @@ $(document).ready(function() {
 		{
 			e.preventDefault();
 
-			var comment_id = ($(this).text());
-			//var comment_id = ($(this).attr('id'));
+			//var comment_id = ($(this).text());
+			var comment_id = ($(this).attr('id'));
 
 			//$('div.comments_wrapper').toggleClass('comments_wrapper comments_wrapper_on');
 			//$('#comments_wrapper').empty().html('<h4>Hi ' + comment + '</h4>');

@@ -3,7 +3,7 @@
 
 	require_once('db_connect.php');
 
-	$usr=$_COOKIE['usr'];
+	//$usr=$_COOKIE['usr'];
 
 	//echo $sesh_id;
 
@@ -12,6 +12,9 @@
 	
 while($row = mysqli_fetch_array($result))
   {
-   echo "<div class='tag_wrapper'><h3><a href='#''>" .$row['comment']. "</a></h3></div>";  
+  	if (!empty($row['tag'])) {
+   echo "<div class='tag_wrapper'><h3><a href='#'' id='" .$row['usr']. "'>" .$row['tag']. "</a></h3></div>";  
+  }
+  else {};
   }
  ?> 

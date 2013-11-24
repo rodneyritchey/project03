@@ -12,6 +12,19 @@
 	
 while($row = mysqli_fetch_array($result))
   {
-   echo $row['tag'];   
+   if($row['tag']) {
+   	echo "<span class='tag'>" .$row['tag']. "</span>";
+   	}
+   	else {
+   		echo "<h1>Upload your tag here:</h1>";
+   		echo "<form id='tag' method='post' onsubmit='' action='scripts/tag_up.php' method='POST'>
+        <fieldset>
+          <legend>
+            <input type='text' name='tag' id='tag' placeholder='Type your Tag here!' />
+            <input type='submit' id='submit' value='SUBMIT' />
+          </legend>
+        </fieldset>
+      </form>";
+   	}   
   }
  ?>

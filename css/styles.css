@@ -69,12 +69,16 @@ div#login_line {
 }
 
 div.tag {
+  
+}
+
+span.tag {
   font-family: DopeJam;
   font-size: 4.5em;
   font-weight: bold;
   text-shadow: 0.1125em 0.1125em #000000;
   color: #FF0000;
-  text-align: center; 
+  text-align: center;
 }
 
 div.member_wrapper {

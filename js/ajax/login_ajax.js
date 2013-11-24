@@ -9,7 +9,7 @@ $(document).ready(function() {
 						type: 'post',
 						url: 'scripts/login.php',
 						success: function(responseData) {
-							window.location.replace('members.php');
+							window.location.replace(responseData);
 							//$('body').empty().html(responseData);
 							
 						},

@@ -12,7 +12,7 @@
 	
 while($row = mysqli_fetch_array($result))
   {
-  	if (!empty($row['tag'])) {
+  	if (!empty($row['comment'])) {
    echo "<div class='tag_wrapper'><h3><a href='#'' id='" .$row['usr']. "'>" .$row['tag']. "</a></h3></div>";  
   }
   else {};

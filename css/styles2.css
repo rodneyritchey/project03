@@ -37,7 +37,6 @@ div#main_img {
 	margin-top: 1em;
 	border: solid 1px #C0C0C0;
 	border-radius: 0.25em 0.25em 0.25em 0.25em;
-	background-image: url(../img/locations/ucflibrary06.jpg);
 	background-position: left top;
 	background-repeat: no-repeat;
 }
@@ -119,6 +118,11 @@ div.comment {
 div#close {
 	padding: 0.5em;
 	text-align: right;
+}
+
+div.loc_text {
+  margin-bottom: 0.25em;
+  text-align: center;
 }
 
 /*Swipe Styles*/

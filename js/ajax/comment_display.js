@@ -12,9 +12,9 @@ $(document).ready(function() {
 			$.ajax({
 					data: {comment_id: comment_id},
 					type: 'post',
-					url: 'scripts/comment_display.php',
+					url: '../scripts/comment_display.php',
 					success: function(responseData) {
-						$('#comments_wrapper').empty().html(responseData);
+						$('#comments_container').empty().html(responseData);
 					},
 					error: function(responseData) {
 						console.log('the login_check.php ajax call failed');

@@ -16,7 +16,7 @@
 	
 		<div class="img_wrapper" id="main_img">
 			<div class="tags_wrapper" id="tags_wrapper"></div>
-		<div class="comments_wrapper" id="comments_wrapper"></div>
+		<div class="comments_container" id="comments_container"></div>
 	</div>
 </body>
 

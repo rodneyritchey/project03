@@ -155,8 +155,6 @@ form#com_post input[type=submit] {
   color: #FFFFFF;
 }
 
-
-
 div.user_says {
 	width: 22%;
 	margin-right: 1em;
@@ -171,14 +169,16 @@ div.comment {
 	display: inline-block;
 }
 
-div#close {
-	padding: 0.5em;
-	text-align: right;
-}
-
 div.loc_text {
   margin-bottom: 0.25em;
   text-align: center;
+}
+
+div#close_display {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.5em;
 }
 
 /*Swipe Styles*/

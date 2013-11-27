@@ -9,26 +9,25 @@ $email = $_POST["email"];
 //Sets Session with vote_id
 //require_once ('set_session.php');
 
-$result = mysqli_query($con,"SELECT * FROM user WHERE usr = '".$username."'");
+$results = mysqli_query($con,"SELECT * FROM user WHERE usr = '".$username."'");
+if(!$results)) {
 
-if(!$result) {
+        //Sets cookie with id user and $vote_id as value
+ require_once ('set_cookie.php');
 
-	//Sets cookie with id user and $vote_id as value
-	require_once ('set_cookie.php');
+ $sql="INSERT INTO user (usr, email, progress) VALUES ('$username','$email','1')";
 
-	$sql="INSERT INTO user (usr, email, progress) VALUES ('$username','$email','1')";
+ if (!mysqli_query($con,$sql))
+   {
+   die('Error: ' . mysqli_error($con));
+   }
+ //echo "1 record added";
+ //mysqli_close($con);
 
-	if (!mysqli_query($con,$sql))
-	  {
-	  die('Error: ' . mysqli_error($con));
-	  }
-	//echo "1 record added";
-	mysqli_close($con);
-
-	echo ('members.php');
+ echo ('members.php');
 }
 else {
-	require_once ('set_cookie.php');
-	echo ('members.php');
+ require_once ('set_cookie.php');
+ echo ('members.php');
 }
 ?>

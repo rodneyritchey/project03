@@ -5,7 +5,7 @@ session_start();
 
 	//$usr=$_COOKIE['usr'];
 
-	$comment = $_POST["comment_post"];
+	$comment = $_POST["post_area"];
 	$usr = $_COOKIE['usr'];
 
 	//echo $comment_id;
@@ -43,5 +43,6 @@ while($row = mysqli_fetch_array($progress)) {
 
 	mysqli_close($con);
 
-	echo( '../display_test.php');
+	//echo( '../display_test.php');
+	header( 'Location: ../display_test.php');
 ?>

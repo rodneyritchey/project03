@@ -7,6 +7,7 @@
 <script src="js/ajax/tag_display.js"></script>
 <script src="js/ajax/location_pic.js"></script>
 <script src="js/ajax/comment_display.js"></script>
+<script src="js/ajax/comment_post.js"></script>
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles2.css" />
 </head>
@@ -21,7 +22,7 @@
 				<form id="com_post" method="post" onsubmit="" action="#">
 					<fieldset>
 						<legend>
-							<textarea name="username" id="username" form="com_post" placeholder="Enter comment here."></textarea>
+							<textarea name="post_area" id="post_area" form="com_post" placeholder="Enter comment here."></textarea>
 							<input type="submit" id="submit" value="SUBMIT" />
 						</legend>
 					</fieldset>

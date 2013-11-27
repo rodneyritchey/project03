@@ -16,7 +16,18 @@
 	
 		<div class="img_wrapper" id="main_img">
 			<div class="tags_wrapper" id="tags_wrapper"></div>
-		<div class="comments_container" id="comments_container"></div>
+			<div class="comments_container" id="comments_container">
+				<div class="comment_post" id="comment_post">
+				<form id="com_post" method="post" onsubmit="" action="#">
+					<fieldset>
+						<legend>
+							<textarea name="username" id="username" form="com_post" placeholder="Enter comment here."></textarea>
+							<input type="submit" id="submit" value="SUBMIT" />
+						</legend>
+					</fieldset>
+				</form>
+			</div>
+		</div>
 	</div>
 </body>
 

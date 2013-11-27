@@ -22,11 +22,7 @@ if (!$result) {
 echo "Error uploading file";
 exit;
 }
-if(!get_magic_quotes_gpc())
-{
-    $fileName = addslashes($fileName);
-	$filePath = addslashes($filePath);
-}
+
 $usr=$_COOKIE['usr'];
 $query = "UPDATE $db_table SET usr_pic= '$filePath' WHERE usr='$usr'";
 mysql_query($query) or die('Error, query failed'); 

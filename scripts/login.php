@@ -10,7 +10,7 @@ $email = $_POST["email"];
 //require_once ('set_session.php');
 
 $results = mysqli_query($con,"SELECT * FROM user WHERE usr = '".$username."'");
-if(!$results)) {
+if(!$results) {
 
         //Sets cookie with id user and $vote_id as value
  require_once ('set_cookie.php');

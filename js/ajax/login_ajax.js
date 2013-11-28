@@ -7,10 +7,10 @@ $(document).ready(function() {
 					$.ajax({
 						data: {username: username, email: email},
 						type: 'post',
-						url: 'scripts/login.php',
+						url: '../scripts/login.php',
 						success: function(responseData) {
 							window.location.replace(responseData);
-							//$('body').empty().html(responseData);
+							//console.log(responseData);
 							
 						},
 						error: function(responseData) {

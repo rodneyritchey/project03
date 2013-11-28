@@ -1,7 +1,7 @@
 <?php
 
 //db connect to test db through sqli
-$con=mysqli_connect("localhost","ro961590","1Action_Hero1","ro961590");
+$con=mysqli_connect("localhost","root","root","tagger");
 // Check connection
 if (mysqli_connect_errno())
   {

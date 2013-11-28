@@ -8,20 +8,7 @@ $(document).ready(function() {
 	{
 		e.preventDefault();
 
-		$('div.comments_wrapper_on').toggleClass('comments_wrapper_on comments_wrapper');
+		$(window.location.replace('members.php'));
 
 	});
-
-	$('a').click(function(e)
-		{
-			e.preventDefault();
-
-			var comment = ($(this).text());
-
-			
-			$('#comment').empty().html('<h4>Hi <span class="comment_tag">' + comment + '</span></h4>');
-
-		});
-
-
 });

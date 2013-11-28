@@ -2,7 +2,7 @@ $(document).ready(function() {
 				$.ajax({
 					data: 'null',
 					type: 'get',
-					url: 'scripts/location_name.php',
+					url: '../scripts/location_name.php',
 					success: function(responseData) {
 						$('h1').empty().html(responseData);
 					},
@@ -16,9 +16,9 @@ $(document).ready(function() {
 				$.ajax({
 					data: 'null',
 					type: 'get',
-					url: 'scripts/location_pic.php',
+					url: '../scripts/location_pic.php',
 					success: function(responseData) {
-						$('#main_img').css({ 'background-image':'url(img/locations/' + responseData + ')' });
+						$('#main_img').css({ 'background-image':'url(../img/locations/' + responseData + ')' });
 					},
 					error: function(responseData) {
 						$('#main_img').empty().html(responseData);

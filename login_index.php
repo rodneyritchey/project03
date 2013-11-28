@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/ajax/login_ajax.js"></script>
+<script src="../js/ajax/login_ajax.js"></script>
 </head>
 
 <body>
@@ -19,6 +19,7 @@
 		</header>
 		<div class="line" id="login_line"></div>
 		<div id="search_form">
+			<div id="response"></div>
 			<form id="register" method="post" onsubmit="" action="#">
 				<fieldset>
 					<legend>

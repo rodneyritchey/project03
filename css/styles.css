@@ -4,11 +4,11 @@
 }
 
 html { 
-	background: url(../img/background.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  background: url(../img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
@@ -29,12 +29,12 @@ div#wrapper {
 }
 
 div#logo {
-	padding-top: 2em;
-	text-align: center;
+  padding-top: 2em;
+  text-align: center;
 }
 
 div#logo img {
-	width: 97%;
+  width: 97%;
 }
 
 div#logo_sm {
@@ -54,7 +54,7 @@ div#logo_sm img {
 
 div.line {
   width: 1%;
-  height: 4em;
+  height: 2em;
   margin: auto;
   border: solid 1px #C0C0C0;
   background-color: #C0C0C0;
@@ -62,7 +62,7 @@ div.line {
 
 div#login_line {
   width: 1%;
-  height: 20em;
+  height: 5em;
   margin: auto;
   border: solid 1px #C0C0C0;
   background-color: #C0C0C0;
@@ -87,7 +87,7 @@ div.member_wrapper {
   min-width: 125px;
   margin-top: 1em;
   margin-left: 1em;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 div#choose {
@@ -113,39 +113,43 @@ div.profile_pic img{
 }
 
 div.greet {
+  font-size: 0.75em;
   padding: 0.5em;
 }
 
 div.loc_wrapper {
   width: 90%;
   margin: auto;
-  margin-bottom: 2em;
-  padding-top: 2em;
+  margin-bottom: 0.5em;
+  padding-top: 0em;
 }
 
 div.location {
+
 }
 
 div.loc_text {
+  font-size: 0.65em;
   margin-bottom: 0.25em;
   text-align: center;
 }
 
 div.location img {
   width: 100%;
+  height: 150px;
   box-shadow: 0.125em 0.125em 0.125em;
   overflow: hidden;
 }
 
 div#search_form {
-	margin: auto;
-	width: 100%;
+  margin: auto;
+  width: 100%;
   margin-bottom: 1em;
-	text-align: center;
+  text-align: center;
 }
 
 form#register fieldset {
-	border: none;
+  border: none;
 }
 
 form#register input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
@@ -195,7 +199,6 @@ div#tagit button {
   -moz-appearance: none;
   display: inline-block;
   margin: auto;
-  margin-top: 0.5em;
   padding: 0em;
   padding: 0.5em;
   width: 100%; 

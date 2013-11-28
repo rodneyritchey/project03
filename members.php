@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/ajax/member_check.js"></script>
-<script src="js/tagit.js"></script>
+<script src="../js/ajax/member_check.js"></script>
+<script src="../js/tagit.js"></script>
 </head>
 
 <body>

@@ -18,5 +18,5 @@ $tag = $_POST["tag"];
 	//echo "1 record added";
 	mysqli_close($con);
 
-	header( 'Location: members.php');
+	header( 'Location: ../members.php');
 ?>

@@ -13,15 +13,16 @@
 
 <body>
 	<div class="wrapper">
+		<div class="member_wrapper">
+			<div class="profile_pic" id="profile_pic"></div>
+			<div class="greet" id="greet"></div>
+		</div>
 		<div id="logo_sm">
 			<img src="img/tagger_logo.png" />
 			<div class="line" id="line"></div>
 			<div class="tag" id="tag"></div>
 		</div>
-		<div class="member_wrapper">
-			<div class="profile_pic" id="profile_pic"></div>
-			<div class="greet" id="greet"></div>
-		</div>
+		
 		<div class="loc_wrapper" id="loc_wrapper">
 			<div class="loc_text" id="loc_text"></div>
 			<div class="location" id="location"></div>

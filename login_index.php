@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 <script src="../js/ajax/login_ajax.js"></script>
 </head>
 

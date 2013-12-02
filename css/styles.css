@@ -29,7 +29,9 @@ h3 {
   margin-bottom: 0.25em;
 }
 
-div#wrapper {
+div.wrapper {
+  margin: auto;
+  max-width: 800px;
   position: relative;
 }
 
@@ -42,17 +44,24 @@ div#logo img {
   width: 97%;
 }
 
+div.top_wrapper {
+  border: solid 1px #000000;
+  margin-bottom: 1em;
+}
+
 div#logo_sm {
   width: 50%;
-  margin-left: 0.5em;
-  padding: 1em;
+  margin-left: 1em;
+  margin-top: -1em;
   text-align: center;
   display: inline-block;
+  border: solid 1px #000000;
 }
 
 div#logo_sm img {
   width: 100%;
   min-width: 150px;
+  max-width: 250px;
 }
 
 div.line {
@@ -86,10 +95,12 @@ span.tag {
 
 div.member_wrapper {
   width: 30%;
-  max-width: 250px;
+  max-width: 125px;
   min-width: 125px;
   margin-left: 1em;
+  margin-top: 1em;
   display: inline-block;
+  border: solid 1px #000000;
 }
 
 div#choose {
@@ -106,13 +117,15 @@ div#choose input {
 
 div.profile_pic {
   width: 100%;
+  max-width: 125px;
+  max-height: 125px;
+  box-shadow: 0.125em 0.125em 0.125em;
+  overflow: hidden;
 }
 
 div.profile_pic img{
-  width: 95%;
+  width: 100%;
   margin: auto;
-  border: solid 1px #000000;
-  box-shadow: 0.125em 0.125em 0.125em;
 }
 
 div.greet {
@@ -129,7 +142,12 @@ div.loc_wrapper {
 }
 
 div.location {
-
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  max-height: 150px;
+  box-shadow: 0.125em 0.125em 0.125em;
+  overflow: hidden;
 }
 
 div.loc_text {
@@ -141,9 +159,6 @@ div.loc_text {
 
 div.location img {
   width: 100%;
-  height: 150px;
-  box-shadow: 0.125em 0.125em 0.125em;
-  overflow: hidden;
 }
 
 div#search_form {

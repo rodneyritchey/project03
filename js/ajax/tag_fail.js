@@ -3,7 +3,7 @@ $(document).ready(function() {
 				$.ajax({
 					data: 'null',
 					type: 'get',
-					url: '../scripts/tag_fail.php',
+					url: 'scripts/tag_fail.php',
 					success: function(responseData) {
 						$('#loc_text').empty().html(responseData);
 					},
@@ -18,7 +18,7 @@ $(document).ready(function() {
 				$.ajax({
 					data: 'null',
 					type: 'get',
-					url: '../scripts/progress_pic.php',
+					url: 'scripts/progress_pic.php',
 					success: function(responseData) {
 						$('#location').empty().html(responseData);
 					},

@@ -12,7 +12,7 @@ $(document).ready(function() {
 			$.ajax({
 					data: {comment_id: comment_id},
 					type: 'post',
-					url: '../scripts/comment_display.php',
+					url: 'scripts/comment_display.php',
 					success: function(responseData) {
 						$('#comments_container').empty().html(responseData);
 					},

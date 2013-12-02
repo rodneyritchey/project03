@@ -10,7 +10,7 @@ $(document).ready(function() {
                 		processData: false,
                 		contentType: false,
 						type: 'post',
-						url: '../scripts/image_up.php',
+						url: 'scripts/image_up.php',
 						success: function(responseData) {
 							window.location.replace(responsedata);
 							//$('body').empty().html(responseData);

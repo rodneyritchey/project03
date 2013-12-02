@@ -22,7 +22,7 @@ function sendPosition(position) {
   $.ajax({
     data: {lat: lat, lon: lon},
     type: 'post',
-    url: '../scripts/tagit.php',
+    url: 'scripts/tagit.php',
     success: function(responseData) {
       window.location.replace(responseData);
       //window.location.replace('members.php'), 3600;

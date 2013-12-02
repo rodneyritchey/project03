@@ -6,7 +6,7 @@ $(document).ready(function() {
 					$.ajax({
 						data: {comment_post: comment_post},
 						type: 'post',
-						url: '../scripts/comment_post.php',
+						url: 'scripts/comment_post.php',
 						success: function(responseData) {
 							window.location.replace(responseData);
 							//$('#comment_post').empty().html(responseData);

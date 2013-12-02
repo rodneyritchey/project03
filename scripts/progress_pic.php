@@ -15,7 +15,7 @@ while($row = mysqli_fetch_array($result))
    $pic = mysqli_query($con,"SELECT * FROM locations WHERE primary_key = '".$row['progress']."'");
 	   while($row = mysqli_fetch_array($pic))
 	  {
-	   echo "<img src='../img/locations/".$row['loc_pic']."' />";
+	   echo "<img src='img/locations/".$row['loc_pic']."' />";
 	      
 	  };  
   }

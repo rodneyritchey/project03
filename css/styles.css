@@ -32,6 +32,7 @@ h3 {
 div.wrapper {
   margin: auto;
   max-width: 800px;
+  min-width: 410px;
   position: relative;
 }
 
@@ -45,17 +46,13 @@ div#logo img {
 }
 
 div.top_wrapper {
-  border: solid 1px #000000;
-  margin-bottom: 1em;
 }
 
 div#logo_sm {
   width: 50%;
-  margin-left: 1em;
-  margin-top: -1em;
+  margin-left: 2.5em;
   text-align: center;
   display: inline-block;
-  border: solid 1px #000000;
 }
 
 div#logo_sm img {
@@ -95,12 +92,11 @@ span.tag {
 
 div.member_wrapper {
   width: 30%;
-  max-width: 125px;
-  min-width: 125px;
+  max-width: 115px;
+  min-width: 115px;
   margin-left: 1em;
   margin-top: 1em;
   display: inline-block;
-  border: solid 1px #000000;
 }
 
 div#choose {
@@ -117,8 +113,8 @@ div#choose input {
 
 div.profile_pic {
   width: 100%;
-  max-width: 125px;
-  max-height: 125px;
+  max-width: 115px;
+  max-height: 115px;
   box-shadow: 0.125em 0.125em 0.125em;
   overflow: hidden;
 }

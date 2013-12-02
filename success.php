@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tag Fail</title>
+<title>Tag Success</title>
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/ajax/tag_success.js"></script>
 <script>            
-   setTimeout("window.location.replace('display_test.php')", 6500);
+   setTimeout("window.location.replace('display_test.php')", 3500);
 </script>
 </head>
 
@@ -23,9 +23,11 @@
 		<div class="mark" id="green_mark">
 			<img src="img/check_mark_green.png" />
 		</div>
-		<div class="loc_wrapper" id="loc_wrapper">
-			<div class="loc_text" id="loc_text"></div>
-			<div class="location" id="location"></div>
+		<div class="btm_wrapper2">
+			<div class="loc_wrapper" id="loc_wrapper">
+				<div class="loc_text" id="loc_text"></div>
+				<div class="location" id="location"></div>
+			</div>
 		</div>
 	</div>
 </body>

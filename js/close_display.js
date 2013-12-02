@@ -10,9 +10,9 @@ $(document).ready(function() {
 		$.ajax({
 						data: {},
 						type: 'get',
-						url: 'scripts/progress_update.php',
+						url: '../scripts/progress_update.php',
 						success: function(responseData) {
-							window.location.replace("members.php");
+							window.location.replace(responseData);
 							//$('#comment_post').empty().html(responseData);
 							
 						},

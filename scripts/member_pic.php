@@ -16,12 +16,13 @@ while($row = mysqli_fetch_array($result))
    	echo "<img src='" .$row['usr_pic']."' />";
    	}
    	else {
-   		echo "<h1>Upload your profile pic here:</h1>";
+   		echo "Upload pic here:";
    		echo "<form name='image' id='image' enctype='multipart/form-data' action='scripts/image_up.php' method='POST'>
-<div id='choose'><input type='file' class='button' id='browse' name='Photo' size='2000000' accept='image/gif, image/jpeg, image/x-ms-bmp, image/x-png' size='26'><br/>
-<INPUT type='submit' class='button' name='Submit' value='  Submit  '> 
-&nbsp;&nbsp;<INPUT type='reset' class='button' value='Cancel'></div>
-</form>";
+            <div id='choose'>
+              <input type='file' class='button' id='browse' name='Photo' value='Pic File' size='2000000' accept='image/gif, image/jpeg, image/x-ms-bmp, image/x-png' size='26'>
+              <INPUT type='submit' class='button' name='Submit' value='Submit'>
+            </div>
+            </form>";
    	}   
   }
  ?> 

@@ -54,7 +54,9 @@ div#main_img img {
 
 div#tags_wrapper {
   width: 95%;
+  height: 50%;
   margin: auto;
+  overflow: scroll;
 }
 
 div.tag_wrapper {

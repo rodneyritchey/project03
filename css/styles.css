@@ -91,6 +91,7 @@ span.tag {
 }
 
 div.member_wrapper {
+  font-family: PTSans;
   width: 30%;
   max-width: 115px;
   min-width: 115px;
@@ -100,15 +101,19 @@ div.member_wrapper {
 }
 
 div#choose {
-  width: 100%;
-  height: 100%;
-  padding: 1em;
-  border: solid 1px #000000;
-  box-shadow: 0.125em 0.125em 0.125em;
+  font-family: PTSans;
 }
 
 div#choose input {
-  margin-bottom: 1em;
+  font-family: PTSans;
+}
+
+div#tag_post {
+  font-family: PTSans;
+}
+
+form#tag {
+  font-family: PTSans;
 }
 
 div.profile_pic {
@@ -128,6 +133,15 @@ div.greet {
   font-family: PTSans;
   font-size: 0.75em;
   padding: 0.5em;
+}
+
+div.btm_wrapper {
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+}
+
+div.btm_wrapper2 {
+  margin-bottom: 4em;
 }
 
 div.loc_wrapper {
@@ -154,6 +168,15 @@ div.loc_text {
 }
 
 div.location img {
+  width: 100%;
+}
+
+div.finished_wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+div.finished_wrapper img {
   width: 100%;
 }
 
@@ -236,10 +259,19 @@ div#tagit button {
   color: #FFFFFF;
 }
 
+form#image {
+  font-family: PTSans;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
 div.mark {
   margin: auto;
   padding: 1em; 
-  width: 50%;
+  width: 35%;
   text-align: center;
 }
 

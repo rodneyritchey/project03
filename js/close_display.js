@@ -7,8 +7,21 @@ $(document).ready(function() {
 	$('#close_display').click(function(e)
 	{
 		e.preventDefault();
+		$.ajax({
+						data: {},
+						type: 'get',
+						url: 'scripts/progress_update.php',
+						success: function(responseData) {
+							window.location.replace("members.php");
+							//$('#comment_post').empty().html(responseData);
+							
+						},
+						error: function(responseData) {
+							console.log('the login.php ajax call failed');
+						}
+					});
 
-		window.location.replace("members.php");
+		//window.location.replace("members.php");
 
 	});
 });

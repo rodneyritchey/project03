@@ -1,6 +1,7 @@
 //Ajax call for login.php
 $(document).ready(function() {
 				$('form').validate({
+					errorClass: 'newError',
 					rules: {
 						username: {
 							required: true,
@@ -32,7 +33,7 @@ $(document).ready(function() {
 							$.ajax({
 								data: {username: username, email: email},
 								type: 'post',
-								url: 'scripts/login.php',
+								url: '../scripts/login.php',
 								success: function(responseData) {
 									window.location.replace(responseData);
 									//$('#response').empty().html(responseData);

@@ -12,6 +12,7 @@
 </head>
 
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<div class="wrapper">
 		<div class="top_wrapper" id="top_wrapper">
 			<div class="member_wrapper">

@@ -14,6 +14,7 @@
 </head>
 
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<div class="wrapper">
 		<header>
 			<div id="logo">

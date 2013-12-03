@@ -12,7 +12,6 @@
 </head>
 
 <body>
-	<?php include_once("analyticstracking.php") ?>
 	<div class="wrapper">
 		<div class="top_wrapper" id="top_wrapper">
 			<div class="member_wrapper">
@@ -30,6 +29,9 @@
 			<div class="loc_text" id="loc_text"></div>
 			<div class="finished_wrapper">
 				<img src="img/check_mark_green.png" />
+			</div>
+			<div class="survey">
+				<a href="https://www.surveymonkey.com/s/RPWX85B">Click here to take survey!</a>
 			</div>
 		</div>
 	</div>

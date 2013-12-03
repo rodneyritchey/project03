@@ -288,6 +288,11 @@ div.mark img {
   width: 100%;
 }
 
+div.survey {
+  margin-top: 0.5em;
+  text-align: center;
+}
+
 @media screen and (max-width: 340px) {
     div#logo_sm {
     width: 40%;

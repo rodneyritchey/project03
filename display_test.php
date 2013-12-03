@@ -14,11 +14,15 @@
 </head>
 
 <body>
-	<h1></h1>
-	<div class="close_display" id="close_display"><a href="#">CLOSE</a></div>
-	<div class="img_wrapper" id="main_img">
-		<div class="tags_wrapper" id="tags_wrapper"></div>
-		<div class="comments_container" id="comments_container"></div>
+	<div class="wrapper">
+		<h1></h1>
+		<div class="close_display" id="close_display">
+			<a href="#">CLOSE</a></div>
+			<div class="img_wrapper" id="main_img">
+				<div class="tags_wrapper" id="tags_wrapper"></div>
+				<div class="comments_container" id="comments_container"></div>
+			</div>
+		</div>
 	</div>
 </body>
 

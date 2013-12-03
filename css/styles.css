@@ -32,7 +32,7 @@ h3 {
 div.wrapper {
   margin: auto;
   max-width: 800px;
-  min-width: 350px;
+  min-width: 320px;
   position: relative;
 }
 
@@ -50,7 +50,7 @@ div.top_wrapper {
 
 div#logo_sm {
   width: 50%;
-  margin-left: 2.5em;
+  margin-left: 2em;
   text-align: center;
   display: inline-block;
 }
@@ -252,10 +252,11 @@ div#tagit button {
   margin: auto;
   padding: 0em;
   padding: 0.5em;
-  width: 100%; 
+  width: 100%;
+  max-width: 250px; 
   height: 80px;
   line-height: 40px; 
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   border: 3px solid #FFFFFF;
@@ -285,4 +286,22 @@ div.mark {
 
 div.mark img {
   width: 100%;
+}
+
+@media screen and (max-width: 340px) {
+    div#logo_sm {
+    width: 40%;
+    margin-left: 1.5em;
+    text-align: center;
+    display: inline-block;
+  }
+
+    span.tag {
+    font-family: DopeJam;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: 0.1125em 0.1125em #000000;
+    color: #FF0000;
+    text-align: center;
+  }
 }

@@ -10,10 +10,10 @@
 	$result = mysqli_query($con,"SELECT * FROM user WHERE usr = '".$usr."'");
 
 
-  while($row = mysqli_fetch_array($result))
+while($row = mysqli_fetch_array($result))
   {
    $pic = mysqli_query($con,"SELECT * FROM locations WHERE primary_key = '".$row['progress']."'");
-	   while($row = mysqli_fetch_array($pic)){
+	    while($row = mysqli_fetch_array($pic)){
 	   	if($row['primary_key'] == 1) {
 	   		echo "<h3>Congratulations!</h3><h3>You tagged the " .$row['name']. "!</h3>";
 	  	}
@@ -21,7 +21,8 @@
 	  	{
 	  		echo "<h3>Congratulations!</h3><h3>You tagged " .$row['name']. "!</h3>";
 	  	}
-	  	else {
+	  	else 
+	  	{
 	  		echo "<h3><h3>Congratulations!</h3><h3>You tagged the " .$row['name']. "!</h3>";
 	  	}
 	};

@@ -29,7 +29,6 @@ while($row = mysqli_fetch_array($result))
 		  	{
 		  		echo "<h3>Your next location is the " .$row['name']. "!</h3>";
 		  	}
-		  	
 		};
 	};
   }

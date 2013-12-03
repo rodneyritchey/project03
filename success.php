@@ -8,9 +8,6 @@
 <link rel="stylesheet" href="css/styles.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/ajax/tag_success.js"></script>
-<script>            
-   	$(setTimeout("window.location.replace('display_test.php')", 3500));
-</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -41,5 +38,7 @@
 		</div>
 	</div>
 </body>
-
+<script>            
+   	$(setTimeout("window.location.replace('display_test.php')", 3500));
+</script>
 </html>

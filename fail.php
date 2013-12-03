@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tag Fail</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/ajax/tag_fail.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -10,18 +18,6 @@
   ga('send', 'pageview');
 
 </script>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tag Fail</title>
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/styles.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/ajax/tag_fail.js"></script>
-<script>            
-   $(setTimeout("window.location.replace('members.php')", 3500));
-</script>
-
 </head>
 
 <body>
@@ -42,5 +38,7 @@
 		</div>
 	</div>
 </body>
-
+<script>            
+   $(setTimeout("window.location.replace('members.php')", 3500));
+</script>
 </html>

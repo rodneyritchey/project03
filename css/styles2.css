@@ -153,8 +153,8 @@ textarea#post_area {
 form#com_post input[type=submit] {
   -webkit-appearance: none; 
   -moz-appearance: none;
-  display: inline-block;
-  margin-bottom: 2em;
+  margin-top: -2em;
+  margin-left: 2em;
   height: 2em;
   line-height: 10px; 
   font-size: 1em;

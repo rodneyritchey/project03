@@ -18,22 +18,27 @@ while($row = mysqli_fetch_array($progress)) {
 	
 	  	if ($prog == 1) {
 	  		$sql = mysqli_query($con,"UPDATE user SET comment01= '$comment' WHERE usr='$usr'");
+	  		$sql = mysqli_query($con,"UPDATE user SET comment01_time= now() WHERE usr='$usr'");
 	   		//echo $comment;  
 	  	}
 	  	else if ($prog == 2) {
 	  		$sql = mysqli_query($con,"UPDATE user SET comment02= '$comment' WHERE usr='$usr'");
+	  		$sql = mysqli_query($con,"UPDATE user SET comment02_time= now() WHERE usr='$usr'");
 	  		//echo $comment;
 	  	}
 	  	else if ($prog == 3) {
 	  		$sql = mysqli_query($con,"UPDATE user SET comment03= '$comment' WHERE usr='$usr'");
+	  		$sql = mysqli_query($con,"UPDATE user SET comment03_time= now() WHERE usr='$usr'");
 	  		//echo $comment;
 	  	}
 	  	else if ($prog == 4) {
 	  		$sql = mysqli_query($con,"UPDATE user SET comment04= '$comment' WHERE usr='$usr'");
+	  		$sql = mysqli_query($con,"UPDATE user SET comment04_time= now() WHERE usr='$usr'");
 	  		//echo $comment;
 	  	}
 	  	else if ($prog == 5) {
 	  		$sql = mysqli_query($con,"UPDATE user SET comment05= '$comment' WHERE usr='$usr'");
+	  		$sql = mysqli_query($con,"UPDATE user SET comment05_time= now() WHERE usr='$usr'");
 	  		//echo $comment;
 	  	}
 	  	else {

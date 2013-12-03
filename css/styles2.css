@@ -165,6 +165,10 @@ form#com_post input[type=submit] {
   color: #FFFFFF;
 }
 
+form#com_post input[type=submit]:active {
+  background-color: #2E3E76;
+}
+
 div.user_says {
   font-family: PTSans;
   width: 22%;

@@ -19,7 +19,10 @@ $(document).ready(function() {
 							minlength: "Your username must be at least 5 characters long.",
 							maxlength: "Your username cannot be more than 11 characters long.",
 						},
-						email: "Please enter an email.",
+						email: {
+							required: "Please enter an email.",
+							email: "Please enter a valid email."
+						} 
 
 					},
 

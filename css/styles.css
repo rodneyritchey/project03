@@ -233,6 +233,10 @@ form#register input[type=submit] {
   color: #FFFFFF;
 }
 
+form#register input[type=submit]:active {
+  background-color: #2E3E76;
+}
+
 div#tagit {
   margin: auto;
   width: 40%;
@@ -257,6 +261,10 @@ div#tagit button {
   border: 3px solid #FFFFFF;
   background-color: #4359A9;
   color: #FFFFFF;
+}
+
+div#tagit button:active {
+  background-color: #2E3E76;
 }
 
 form#image {

@@ -19,19 +19,19 @@ while($row = mysqli_fetch_array($progress)) {
 
 	  {
 	  	if ($prog == 1) {
-	   		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment01']. "&quot;</div></div>";  
+	   		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='comment_pic'><img src='" .$row['usr_pic']. "' /></div><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment01']. "&quot;</div></div>";  
 	  	}
 	  	else if ($prog == 2) {
-	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment02']. "&quot;</div></div>";
+	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='comment_pic'><img src='" .$row['usr_pic']. "' /></div><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment02']. "&quot;</div></div>";
 	  	}
 	  	else if ($prog == 3) {
-	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment03']. "&quot;</div></div>";
+	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='comment_pic'><img src='" .$row['usr_pic']. "' /></div><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment03']. "&quot;</div></div>";
 	  	}
 	  	else if ($prog == 4) {
-	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment04']. "&quot;</div></div>";
+	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='comment_pic'><img src='" .$row['usr_pic']. "' /></div><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment04']. "&quot;</div></div>";
 	  	}
 	  	else if ($prog == 5) {
-	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment05']. "&quot;</div></div>";
+	  		echo "<div class='comments_wrapper' id='comments_wrapper'><div class='comment_pic'><img src='" .$row['usr_pic']. "' /></div><div class='user_says' id='user_says'><h4>" .$row['usr']. " says</h4></div><div class='comment id='comment'>&quot;" .$row['comment05']. "&quot;</div></div>";
 	  	}
 	  	else {}
 	  }

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Tag Display Test - Rodney Ritchey</title>
+<title>Locations</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/ajax/tag_display.js"></script>
 <script src="js/ajax/location_pic.js"></script>

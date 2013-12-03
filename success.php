@@ -24,11 +24,11 @@
 	<div class="wrapper">
 		<header>
 			<div id="logo">
-				<img src="img/tagger_logo.png" />
+				<img src="img/tagger_logo.png" alt="Tagger" />
 			</div>
 		</header>
 		<div class="mark" id="green_mark">
-			<img src="img/check_mark_green.png" />
+			<img src="img/check_mark_green.png" alt="Check Mark" />
 		</div>
 		<div class="btm_wrapper2">
 			<div class="loc_wrapper" id="loc_wrapper">

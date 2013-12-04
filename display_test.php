@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Locations</title>
+<link rel="icon" href="img/favicon.ico" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/ajax/tag_display.js"></script>
 <script src="js/ajax/location_pic.js"></script>

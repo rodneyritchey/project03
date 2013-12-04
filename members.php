@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Members Area</title>
+<link rel="icon" href="img/favicon.ico" />
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="../js/ajax/member_check.js"></script>
-<script src="../js/tagit.js"></script>
+<script src="js/ajax/member_check.js"></script>
+<script src="js/tagit.js"></script>
 </head>
 
 <body>
